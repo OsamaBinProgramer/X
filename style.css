@@ -1,0 +1,27 @@
+background {
+  <video src='culito.mp4'
+}
+
+#video-fondo {
+  position: fixed; /* Fondo fijo */
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: "300px";
+  height: "300px";
+  object-fit: cover; /* Cubre toda la pantalla */
+  z-index: -100; /* Detrás de todo */
+}
+
+.culito {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+tittle {
+  Color: orange;
+  font-size: 30px;
+  text-align: center;
+}
